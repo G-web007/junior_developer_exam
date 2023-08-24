@@ -90,7 +90,7 @@ if(isset($_POST['submit'])){
                                 <input type="number" class="form-control" id="inventory" name="inventory" value="<?php echo $product_inventory;?>" required>
                             </div>
                             <div class="col-md-3">
-                                <label for="inventory_cost" class="form-label">Available Inventory:</label>
+                                <label for="inventory_cost" class="form-label">Available Inventory Cost:</label>
                                 <input type="text" class="form-control" id="inventory_cost" name="inventory_cost" value="<?php echo $product_cost;?>" readonly>
                             </div>
                             <div class="col-md-3">
