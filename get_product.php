@@ -21,16 +21,16 @@
                         <div class="table-responsive">
                             <table class="table table-bordered table-hover table-secondary">
                                 <thead>
-                                    <tr>
+                                    <tr class="text-center">
                                         <th>#</th>
-                                        <th>Product Name:</th>
-                                        <th>Unit:</th>
-                                        <th>Price:</th>
-                                        <th>Expiry Date:</th>
-                                        <th>Inventory:</th>
-                                        <th>Available Cost:</th>
-                                        <th>Image:</th>
-                                        <th colspan='2' class="text-center">Action</th>
+                                        <th>Product Name</th>
+                                        <th>Unit</th>
+                                        <th>Price</th>
+                                        <th>Expiry Date</th>
+                                        <th>Inventory</th>
+                                        <th>Available Cost</th>
+                                        <th>Image</th>
+                                        <th colspan='2'>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
