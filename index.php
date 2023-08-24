@@ -1,15 +1,5 @@
 <?php include "includes/config.php"?>
 
-<?php 
-    if(isset($_GET['delete'])){
-        $recordId = $_GET['delete'];
-
-        $query = "DELETE FROM products WHERE id = {$recordId}";
-        $delete_query = mysqli_query($conn, $query);
-        header("Location: index.php");
-    }
-?>
-
 <?php include "includes/header.php"?>
 
     <div class="container">
