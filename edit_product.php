@@ -91,7 +91,7 @@ if(isset($_POST['submit'])){
                             </div>
                             <div class="col-md-3">
                                 <label for="inventory_cost" class="form-label">Available Inventory:</label>
-                                <input type="text" class="form-control" id="inventory_cost" name="inventory_cost" value="<?php echo $product_cost;?>">
+                                <input type="text" class="form-control" id="inventory_cost" name="inventory_cost" value="<?php echo $product_cost;?>" readonly>
                             </div>
                             <div class="col-md-3">
                                 <label for="inventory" class="form-label">Select Image:</label>
